@@ -95,197 +95,197 @@
 
 /* Box sizing rules */
 *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-    }
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-    /* Remove default margin */
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    p,
-    ul[class],
-    ol[class],
-    li,
-    figure,
-    figcaption,
-    dl,
-    dd {
-        margin: 0;
-    }
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+dl,
+dd {
+    margin: 0;
+}
 
-    /* Make default font-size 1rem and add smooth scrolling to anchors */
+/* Make default font-size 1rem and add smooth scrolling to anchors */
+html {
+    font-size: 1rem;
+}
+@media (prefers-reduced-motion: no-preference) {
     html {
-        font-size: 1rem;
+        scroll-behavior: smooth;
     }
-    @media (prefers-reduced-motion: no-preference) {
-        html {
-            scroll-behavior: smooth;
-        }
-    }
+}
 
-    body.libertinus {
-        font-family: Arial, 'Libertinus', Georgia, Cambria, 'Times New Roman', Times, serif;
-    }
+body.libertinus {
+    font-family: Arial, 'Libertinus', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
 
-    body {
-        font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
-        line-height: 1.8;
+body {
+    font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+    line-height: 1.8;
 
-        max-width: 80ch;
-        min-height: 100vh;
-        overflow-x: hidden;
-        margin: 0 auto;
-        padding: 2rem 1.25rem;
+    max-width: 80ch;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
 
-        counter-reset: theorem;
-        counter-reset: definition;
-        counter-reset: sidenote-counter;
+    counter-reset: theorem;
+    counter-reset: definition;
+    counter-reset: sidenote-counter;
 
-        color: hsl(0, 5%, 10%);
-        background-color: hsl(210, 20%, 98%);
+    color: hsl(0, 5%, 10%);
+    background-color: hsl(210, 20%, 98%);
 
-        text-rendering: optimizeLegibility;
-    }
+    text-rendering: optimizeLegibility;
+}
 
-    /* Justify and hyphenate all paragraphs */
-    p {
-        text-align: justify;
-        hyphens: auto;
-        -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-        margin-top: 1rem;
-    }
+/* Justify and hyphenate all paragraphs */
+p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin-top: 1rem;
+}
 
-    /* A elements that don't have a class get default styles */
-    a:not([class]) {
-        text-decoration-skip-ink: auto;
-    }
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
 
-    /* Make links red */
-    a,
-    a:visited {
-        color: #a00;
-    }
+/* Make links red */
+a,
+a:visited {
+    color: #a00;
+}
 
-    a:focus {
-        outline-offset: 2px;
-        outline: 2px solid hsl(220, 90%, 52%);
-    }
+a:focus {
+    outline-offset: 2px;
+    outline: 2px solid hsl(220, 90%, 52%);
+}
 
-    /* Make images easier to work with */
-    img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
+/* Make images easier to work with */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 
-    /* Inherit fonts for inputs and buttons */
-    input,
-    button,
-    textarea,
-    select {
-        font: inherit;
-    }
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
 
-    /* Prevent textarea from overflowing */
-    textarea {
-        width: 100%;
-    }
+/* Prevent textarea from overflowing */
+textarea {
+    width: 100%;
+}
 
-    /* Natural flow and rhythm in articles by default */
-    article > * + * {
-        margin-top: 1em;
-    }
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+    margin-top: 1em;
+}
 
-    /* Styles for inline code or code snippets */
-    code,
-    pre,
-    kbd {
-        font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
-        monospace;
-        font-size: 85%;
-    }
-    pre {
-        padding: 1rem 1.4rem;
-        max-width: 100%;
-        overflow: auto;
-        border-radius: 4px;
-        background: hsl(210, 28%, 93%);
-    }
-    pre code {
-        font-size: 95%;
-        position: relative;
-    }
-    kbd {
-        background: hsl(210, 5%, 100%);
-        border: 1px solid hsl(210, 5%, 70%);
-        border-radius: 2px;
-        padding: 2px 4px;
-        font-size: 75%;
-    }
+/* Styles for inline code or code snippets */
+code,
+pre,
+kbd {
+    font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+    font-size: 85%;
+}
+pre {
+    padding: 1rem 1.4rem;
+    max-width: 100%;
+    overflow: auto;
+    border-radius: 4px;
+    background: hsl(210, 28%, 93%);
+}
+pre code {
+    font-size: 95%;
+    position: relative;
+}
+kbd {
+    background: hsl(210, 5%, 100%);
+    border: 1px solid hsl(210, 5%, 70%);
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-size: 75%;
+}
 
-    /* Better tables */
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        width: auto;
-        max-width: 100%;
-        border-top: 2.27px solid black;
-        border-bottom: 2.27px solid black;
-        /* display: block; */
-        overflow-x: auto; /* does not work because element is not block */
-        /* white-space: nowrap; */
-        counter-increment: caption;
-    }
-    /* add bottom border on column table headings  */
-    table tr > th[scope='col'] {
-        border-bottom: 1.36px solid black;
-    }
-    /* add right border on row table headings  */
-    table tr > th[scope='row'] {
-        border-right: 1.36px solid black;
-    }
-    table > tbody > tr:first-child > td,
-    table > tbody > tr:first-child > th {
-        border-top: 1.36px solid black;
-    }
-    table > tbody > tr:last-child > td,
-    table > tbody > tr:last-child > th {
-        border-bottom: 1.36px solid black;
-    }
+/* Better tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: auto;
+    max-width: 100%;
+    border-top: 2.27px solid black;
+    border-bottom: 2.27px solid black;
+    /* display: block; */
+    overflow-x: auto; /* does not work because element is not block */
+    /* white-space: nowrap; */
+    counter-increment: caption;
+}
+/* add bottom border on column table headings  */
+table tr > th[scope='col'] {
+    border-bottom: 1.36px solid black;
+}
+/* add right border on row table headings  */
+table tr > th[scope='row'] {
+    border-right: 1.36px solid black;
+}
+table > tbody > tr:first-child > td,
+table > tbody > tr:first-child > th {
+    border-top: 1.36px solid black;
+}
+table > tbody > tr:last-child > td,
+table > tbody > tr:last-child > th {
+    border-bottom: 1.36px solid black;
+}
 
-    th,
-    td {
-        text-align: left;
-        padding: 0.5rem;
-        line-height: 1.1;
-    }
-    /* Table caption */
-    caption {
-        text-align: left;
-        font-size: 0.923em;
-        /* border-bottom: 2pt solid #000; */
-        padding: 0 0.25em 0.25em;
-        width: 100%;
-        margin-left: 0;
-    }
+th,
+td {
+    text-align: left;
+    padding: 0.5rem;
+    line-height: 1.1;
+}
+/* Table caption */
+caption {
+    text-align: left;
+    font-size: 0.923em;
+    /* border-bottom: 2pt solid #000; */
+    padding: 0 0.25em 0.25em;
+    width: 100%;
+    margin-left: 0;
+}
 
-    caption::before {
-        content: 'Table ' counter(caption) '. ';
-        font-weight: bold;
-    }
+caption::before {
+    content: 'Table ' counter(caption) '. ';
+    font-weight: bold;
+}
 
-    /* allow scroll on the x-axis */
-    .scroll-wrapper {
-        overflow-x: auto;
-    }
+/* allow scroll on the x-axis */
+.scroll-wrapper {
+    overflow-x: auto;
+}
 
-    /* if a table is wrapped in a scroll wrapper,
-    the table cells shouldn't wrap */
+/* if a table is wrapped in a scroll wrapper,
+the table cells shouldn't wrap */
 .scroll-wrapper > table td {
     white-space: nowrap;
 }
