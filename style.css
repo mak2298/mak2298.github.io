@@ -576,3 +576,31 @@ h5,
 h6 {
   margin-bottom: 0.8rem;
 }
+
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav h1 {
+    float: left;
+}
+
+.topnav a {
+    float: right;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: red;
+}
