@@ -19,4 +19,4 @@ Public Health
 **Repository**
 
 Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![Editing a markdown file for a talk](/images/500x300.png)
