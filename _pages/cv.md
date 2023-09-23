@@ -15,19 +15,6 @@ Education
 
 Work experience
 ======
-* January 2023–June 2023: Research Engineer
-  * Columbia University, Department of Computer Science
-  * Developed Python routines for retrieving and analyzing Yelp and Twitter data from an AWS S3 bucket to use as input for training and classification with machine learning models.
-  * Managed a MongoDB database of 25 distinct collections to store Yelp reviews and tweets, ensuring a comprehensive record of data.
-  * Organized system services into discrete containers by creating and maintaining 20 unique Docker images in order to support modular application structure.
-  * Maintained detailed documentation of more than 10 distinct system components in a project-wide directory to assist future engineers in system maintenance.
-  * Established routine project workflow with LA County project collaborators and facilitated expansion of the project to a new city.
-
-* May 2022–January 2023: Computational Social Science Research Assistant
-  * University of California, Los Angeles Department of Communication
-  * Adapted a RNN pipeline for detecting emotional cues through pose and speech with OpenPose and BERT to automate the coding of presidential debates.
-  * Contributed writing toward a paper using RNN-LSTM for extracting nonverbal cues in political debate videos.
-  * Collected more than 10k news articles with BeautifulSoup and Selenium and analyzed a German language corpus with LDA topic modeling and community detection to validate a method for NLP analysis on multiple languages.
 
   
 Skills
